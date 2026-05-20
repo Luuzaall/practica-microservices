@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a4c5b6ef-fd94-4202-a377-0bf4962d0ede" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/DTO/AccountDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/DTO/CustomerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/DTO/ErrorResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/DTO/ResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/constants/AccountsConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/controller/AccountsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accounts/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/AccountsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/AccountsApplication.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Luuzaall&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Luuzaall/practica-microservices&quot;,
+    &quot;accountId&quot;: &quot;640432f4-cb10-4400-ae4b-21ce952b59ec&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="2.544253357610191E-94" />
+      <entry key="S2" value="4.1305983088197425E-24" />
+      <entry key="S5" value="6.083006668732851E-10" />
+      <entry key="S10" value="4.247772401597164E-5" />
+      <entry key="S30" value="0.09665237991261896" />
+      <entry key="S60" value="0.9563341161844315" />
+      <entry key="M2" value="4.366126295473542" />
+      <entry key="M5" value="15.273298905479933" />
+      <entry key="M10" value="25.735231904526724" />
+      <entry key="M15" value="31.28850313300025" />
+      <entry key="M30" value="41.04037840334852" />
+      <entry key="H1" value="55.66595616668128" />
+      <entry key="H2" value="73.2920622169269" />
+      <entry key="H4" value="87.93175528421935" />
+      <entry key="D1" value="104.92638877460196" />
+      <entry key="W1" value="108.40245987960111" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0000000000000833" />
+      <entry key="MS500" value="1.0024260223878552" />
+      <entry key="S2" value="1.283101146777673" />
+      <entry key="S5" value="2.025906495603536" />
+      <entry key="S10" value="2.7118006695619172" />
+      <entry key="S30" value="3.505368718510387" />
+      <entry key="S60" value="4.093500702820448" />
+      <entry key="M2" value="5.457150429280769" />
+      <entry key="M5" value="8.426111810385892" />
+      <entry key="M10" value="10.574961799016913" />
+      <entry key="M15" value="11.564321712995444" />
+      <entry key="M30" value="13.12682355726921" />
+      <entry key="H1" value="15.29816259541431" />
+      <entry key="H2" value="17.85776949358445" />
+      <entry key="H4" value="19.969756389338972" />
+      <entry key="D1" value="22.414629170218696" />
+      <entry key="W1" value="22.914146901183063" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="1.172250583830903E-10" />
+      <entry key="MS500" value="0.010653832808653799" />
+      <entry key="S2" value="0.480640911910376" />
+      <entry key="S5" value="1.4318962198022422" />
+      <entry key="S10" value="2.29942453927726" />
+      <entry key="S30" value="3.416669589990879" />
+      <entry key="S60" value="4.9256518581434365" />
+      <entry key="M2" value="9.717964149359778" />
+      <entry key="M5" value="23.618996663333693" />
+      <entry key="M10" value="36.25580936376388" />
+      <entry key="M15" value="42.81202396776934" />
+      <entry key="M30" value="54.14240869575104" />
+      <entry key="H1" value="70.94777443071727" />
+      <entry key="H2" value="91.13915376562626" />
+      <entry key="H4" value="107.89512055489148" />
+      <entry key="D1" value="127.33974862886383" />
+      <entry key="W1" value="131.3164194821979" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="3DlzmlS6D24SLRthrmO1YMdhikS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AccountsApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AccountsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;h2&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.maru.accounts.DTO" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.maru.accounts.AccountsApplication" />
+      <module name="accounts" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4c5b6ef-fd94-4202-a377-0bf4962d0ede" name="Changes" comment="" />
+      <created>1778871606901</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1778871606901</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
