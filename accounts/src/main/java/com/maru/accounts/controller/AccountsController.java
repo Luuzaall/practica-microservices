@@ -3,8 +3,9 @@ package com.maru.accounts.controller;
 import com.maru.accounts.DTO.CustomerDto;
 import com.maru.accounts.DTO.ResponseDto;
 import com.maru.accounts.constants.AccountsConstants;
-import com.maru.accounts.entity.Customer;
 import com.maru.accounts.service.IAccountService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Pattern;
 import lombok.AllArgsConstructor;
@@ -14,6 +15,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
+@Tag(
+        name = "CRUD REST APIs for Accounts in EazyBank",
+        description = "CRUD is Create, Read, Update and Delete operations for Account."
+)
 @RestController
 @RequestMapping(path = "/account", produces = {MediaType.APPLICATION_JSON_VALUE})
 @AllArgsConstructor
@@ -22,6 +27,10 @@ public class AccountsController {
 
     private IAccountService accountService;
 
+    @Operation(
+            summary = "Create Account Rest Api",
+            description = "Rest api to create a new Customer and Account of EazyBank"
+    )
     @PostMapping
     public ResponseEntity<ResponseDto> createAccount(
             @Valid @RequestBody CustomerDto customerDto) {

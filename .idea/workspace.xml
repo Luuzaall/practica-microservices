@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4c5b6ef-fd94-4202-a377-0bf4962d0ede" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/audit/AuditAwareImpl.java" afterDir="false" />
+    <list default="true" id="a4c5b6ef-fd94-4202-a377-0bf4962d0ede" name="Changes" comment="nuevas carpetas de estructura base del microserv">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/AccountsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/AccountsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/DTO/AccountDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/DTO/AccountDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/DTO/CustomerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/DTO/CustomerDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/controller/AccountsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/controller/AccountsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/entity/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/repository/AccountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/service/IAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/service/IAccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/service/implementation/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/java/com/maru/accounts/service/implementation/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/src/main/resources/schema.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,61 +47,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="2.544253357610191E-94" />
-      <entry key="S2" value="4.1305983088197425E-24" />
-      <entry key="S5" value="6.083006668732851E-10" />
-      <entry key="S10" value="4.247772401597164E-5" />
-      <entry key="S30" value="0.09665237991261896" />
-      <entry key="S60" value="0.9563341161844315" />
-      <entry key="M2" value="4.366126295473542" />
-      <entry key="M5" value="15.273298905479933" />
-      <entry key="M10" value="25.735231904526724" />
-      <entry key="M15" value="31.28850313300025" />
-      <entry key="M30" value="41.04037840334852" />
-      <entry key="H1" value="55.66595616668128" />
-      <entry key="H2" value="73.2920622169269" />
-      <entry key="H4" value="87.93175528421935" />
-      <entry key="D1" value="104.92638877460196" />
-      <entry key="W1" value="108.40245987960111" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000001985194" />
+      <entry key="S2" value="1.0037730524105053" />
+      <entry key="S5" value="1.1201419734657947" />
+      <entry key="S10" value="1.4440839462155945" />
+      <entry key="S30" value="2.6147822806878036" />
+      <entry key="S60" value="4.144640872975988" />
+      <entry key="M2" value="5.8676800842611" />
+      <entry key="M5" value="8.535140525821244" />
+      <entry key="M10" value="13.227094944681731" />
+      <entry key="M15" value="17.77620588291096" />
+      <entry key="M30" value="31.576672624521446" />
+      <entry key="H1" value="56.21088637829071" />
+      <entry key="H2" value="88.25100117545385" />
+      <entry key="H4" value="117.69633004946839" />
+      <entry key="D1" value="155.3972092053541" />
+      <entry key="W1" value="163.5777687201739" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0000000000000833" />
-      <entry key="MS500" value="1.0024260223878552" />
-      <entry key="S2" value="1.283101146777673" />
-      <entry key="S5" value="2.025906495603536" />
-      <entry key="S10" value="2.7118006695619172" />
-      <entry key="S30" value="3.505368718510387" />
-      <entry key="S60" value="4.093500702820448" />
-      <entry key="M2" value="5.457150429280769" />
-      <entry key="M5" value="8.426111810385892" />
-      <entry key="M10" value="10.574961799016913" />
-      <entry key="M15" value="11.564321712995444" />
-      <entry key="M30" value="13.12682355726921" />
-      <entry key="H1" value="15.29816259541431" />
-      <entry key="H2" value="17.85776949358445" />
-      <entry key="H4" value="19.969756389338972" />
-      <entry key="D1" value="22.414629170218696" />
-      <entry key="W1" value="22.914146901183063" />
+      <entry key="MS100" value="1.7602937021974096E-86" />
+      <entry key="MS500" value="7.065079075695277E-18" />
+      <entry key="S2" value="5.155600495536497E-5" />
+      <entry key="S5" value="0.01927134578911095" />
+      <entry key="S10" value="0.1389442996308651" />
+      <entry key="S30" value="0.5675308255367407" />
+      <entry key="S60" value="0.9426071930570378" />
+      <entry key="M2" value="1.322871969881774" />
+      <entry key="M5" value="1.9045106157781932" />
+      <entry key="M10" value="2.913625132981639" />
+      <entry key="M15" value="3.8571121152766654" />
+      <entry key="M30" value="6.628093423432738" />
+      <entry key="H1" value="11.34681292942917" />
+      <entry key="H2" value="17.10192918621658" />
+      <entry key="H4" value="22.154353110871725" />
+      <entry key="D1" value="28.427142798404677" />
+      <entry key="W1" value="29.76757987625254" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.172250583830903E-10" />
-      <entry key="MS500" value="0.010653832808653799" />
-      <entry key="S2" value="0.480640911910376" />
-      <entry key="S5" value="1.4318962198022422" />
-      <entry key="S10" value="2.29942453927726" />
-      <entry key="S30" value="3.416669589990879" />
-      <entry key="S60" value="4.9256518581434365" />
-      <entry key="M2" value="9.717964149359778" />
-      <entry key="M5" value="23.618996663333693" />
-      <entry key="M10" value="36.25580936376388" />
-      <entry key="M15" value="42.81202396776934" />
-      <entry key="M30" value="54.14240869575104" />
-      <entry key="H1" value="70.94777443071727" />
-      <entry key="H2" value="91.13915376562626" />
-      <entry key="H4" value="107.89512055489148" />
-      <entry key="D1" value="127.33974862886383" />
-      <entry key="W1" value="131.3164194821979" />
+      <entry key="MS100" value="0.9201876506248751" />
+      <entry key="MS500" value="0.9835020740820074" />
+      <entry key="S2" value="0.9986182760240983" />
+      <entry key="S5" value="1.1159185831832565" />
+      <entry key="S10" value="1.5211741820301539" />
+      <entry key="S30" value="3.102510975280673" />
+      <entry key="S60" value="5.022970443419145" />
+      <entry key="M2" value="7.14667855297" />
+      <entry key="M5" value="10.415262842057802" />
+      <entry key="M10" value="16.122687705207603" />
+      <entry key="M15" value="21.617649090162416" />
+      <entry key="M30" value="38.191432950057504" />
+      <entry key="H1" value="67.54570210290711" />
+      <entry key="H2" value="105.34311735767997" />
+      <entry key="H4" value="139.84392742382366" />
+      <entry key="D1" value="183.8228191048136" />
+      <entry key="W1" value="193.3451168195116" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -121,31 +113,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Unnamed.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.AccountsApplicationTests.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;Spring Boot.AccountsApplication.executor&quot;: &quot;Run&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/marus/Documents/workspaces/practica-microservices&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Unnamed.executor": "Debug",
+    "JUnit.AccountsApplicationTests.executor": "Run",
+    "Maven.accounts [clean].executor": "Run",
+    "Maven.accounts [install].executor": "Run",
+    "Maven.accounts [org.apache.maven.plugins:maven-clean-plugin:3.4.1:clean].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.AccountsApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;h2&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "h2"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.maru.accounts.DTO" />
