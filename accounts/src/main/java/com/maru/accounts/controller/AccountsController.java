@@ -1,10 +1,13 @@
 package com.maru.accounts.controller;
 
 import com.maru.accounts.DTO.CustomerDto;
+import com.maru.accounts.DTO.ErrorResponseDto;
 import com.maru.accounts.DTO.ResponseDto;
 import com.maru.accounts.constants.AccountsConstants;
 import com.maru.accounts.service.IAccountService;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -35,6 +38,14 @@ public class AccountsController {
     )
     @ApiResponse(responseCode = "201",
             description = "HTTP Status CREATED")
+
+    @ApiResponse(
+            responseCode = "500",
+            description = "HTTP Status Internal Server Error",
+            content= @Content(
+                    schema= @Schema(implementation= ErrorResponseDto.class)
+            )
+    )
     @PostMapping
     public ResponseEntity<ResponseDto> createAccount(
             @Valid @RequestBody CustomerDto customerDto) {
@@ -54,6 +65,14 @@ public class AccountsController {
                     description = "HTTP Status OK"
             )
     })
+
+    @ApiResponse(
+            responseCode = "500",
+            description = "HTTP Status Internal Server Error",
+            content= @Content(
+                    schema= @Schema(implementation= ErrorResponseDto.class)
+            )
+    )
     @GetMapping
     public ResponseEntity<CustomerDto> fetchAccountDetails(@RequestParam
                                                            @Pattern(regexp = "(^$|[0-9]{10})", message = "Mobile number must be 10 digits")
@@ -72,8 +91,15 @@ public class AccountsController {
                     description = "HTTP Status OK"
             ),
             @ApiResponse(
+                    responseCode = "417",
+                    description = "Exception Failed"
+            ),
+            @ApiResponse(
                     responseCode = "500",
-                    description = "HTTP Status Internal Server Error"
+                    description = "HTTP Status Internal Server Error",
+                    content= @Content(
+                            schema= @Schema(implementation= ErrorResponseDto.class)
+                    )
             )
     })
     @PutMapping
@@ -98,6 +124,11 @@ public class AccountsController {
             @ApiResponse(
                     responseCode = "200",
                     description = "HTTP Status OK"
+            ),
+
+            @ApiResponse(
+                    responseCode = "417",
+                    description = "Exception Failed"
             ),
             @ApiResponse(
                     responseCode = "500",
